@@ -1,0 +1,71 @@
+.RecipeDetails {
+    font-family: 'Raleway', sans-serif;
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.OuterContainer {
+    display: flex;
+}
+
+.RightContainer {
+    padding-left: 50px;
+}
+
+.RightContainer h1 {
+    padding-bottom: 20px;
+}
+
+.RightContainer a {
+    background-color: aquamarine;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px
+}
+
+.ReadDirections {
+    margin-top: 30px;
+}
+
+.InnerContainer {
+    display: flex;
+}
+
+.Wrapper p {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px
+}
+
+.Wrapper {
+    border-right: 1px solid grey
+}
+
+.Wrapper .BigNumbers {
+    font-size: 35px
+}
+
+.BottomContainer {
+    padding: 20px 0 20px 0;
+}
+
+.IngredientsContainer {
+    padding-bottom: 20px;
+}
+
+.IngredientsContainer h2, .Nutrition h2 {
+    padding-bottom: 20px;
+}
+
+.IngredientsList {
+    list-style: none;
+}
+
+.IngredientsList li, .Nutrition p {
+    padding-bottom: 10px
+}
+
+

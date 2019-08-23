@@ -1,0 +1,22 @@
+.Nav {
+    display: inline-flex;
+    align-items: center;
+    width: 100% ;
+    height: 40px;
+    padding: 20px
+}
+
+.LoggedIn a, .LoggedOut a {
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.Logo {
+    text-decoration: none;
+    padding-right: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: black;
+}

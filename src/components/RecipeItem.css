@@ -1,0 +1,51 @@
+.Container {
+    box-sizing: content-box;
+    padding: 0 10px 20px 10px;
+}
+
+.Container a {
+    text-decoration: none;
+}
+
+.RecipeItem img{
+    height: 200px;
+    border-radius: 7px;
+}
+
+.RecipeItem img:hover{
+    opacity: 0.5;
+}
+
+
+.RecipeItem p {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 0 10px 0;
+    width: 150px;
+    color: black;
+}
+
+.RecipeItem p:hover {
+    color: rgb(71, 179, 71)
+}
+
+button{
+    background-color: white;
+    border: 1px solid black;
+    font-family: 'Pacifico', cursive;
+    border-radius: 50%;
+    padding: 5px;
+    width: 45px;
+    height: 45px;
+}
+
+.faved {
+    background-color: green
+}
+
+.disabledBtn {
+    background-color: lightgray
+}
+
+.container{
+    display: flex;
+}

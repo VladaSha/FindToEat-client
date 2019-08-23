@@ -1,0 +1,31 @@
+.Searchbar {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 0;
+    background-image: url("https://img.pngio.com/food-background-images-94-images-in-collection-page-3-food-backgrounds-png-1440_619.png");
+    width: 100vw;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.react-search-field {
+    border-radius: 20px;
+    width: 40vw;
+    background-color: white !important;
+    border: none !important;
+    box-shadow: 0px 15px 10px -15px grey;    
+}
+
+.react-search-field-input {
+    padding: 0 0 0 10px !important;
+    background-color: transparent !important
+}
+
+.react-search-field-button {
+    background-color: transparent !important;
+    display: none
+}
+
